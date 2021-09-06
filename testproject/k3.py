@@ -37,3 +37,4 @@ def test_TC02():
 def test_TC03():
     send_input("abcd")
     assert "Title should be at least 8 characters; you entered 4." == get_error_value()
+    driver.close()
