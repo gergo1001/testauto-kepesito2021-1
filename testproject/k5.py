@@ -47,3 +47,4 @@ def test_TC03():
     driver.find_element_by_id(init_id).click()
     szamok_uj = get_bingonumbers()
     assert van_kulonbseg(szamok_kezd, szamok_uj) is True
+    driver.close()

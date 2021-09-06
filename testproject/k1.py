@@ -59,4 +59,5 @@ def test_TC03():
     driver.find_element_by_id(submit_id).click()
     assert get_result_text(result_id) == "NaN"
     assert get_result_text_visible(results_visible_id) is True
+    driver.close()
 
