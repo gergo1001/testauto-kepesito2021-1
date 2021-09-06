@@ -80,3 +80,4 @@ def test_TC03():
         assert ABCstabla[poz_char(chr_value) + int(num_value)] == result_value
     if op_value == '-':
         assert ABCstabla[poz_char(chr_value) - int(num_value)] == result_value
+    driver.close()
